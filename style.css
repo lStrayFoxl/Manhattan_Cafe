@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Stolzl-Regular";
+    src: url("assets/fonts/stolzl_regular.otf") format("OpenType");
+}
+
+@font-face {
+    font-family: "Stolzl-Book";
+    src: url("assets/fonts/stolzl_book.otf") format("OpenType");
+}
+
+@font-face {
+    font-family: "GothamPro_Black";
+    src: url("assets/fonts/gothampro_black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "GothamPro_Bold";
+    src: url("assets/fonts/gothampro_bold.ttf") format("truetype");
+}
+
+/* Reset styles */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+    font-family: 'Stolzl-Regular', sans-serif;
+    resize: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto 0 auto;
+}
+
+/* body styles */
+body {
+    background-color: #210E09;
+}
+
+/* Header styles */
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu_item {
+    margin-right: 30px;
+}
+
+.menu_item a {
+    color: white;
+    font-size: 14px;
+}
+
+.btn {
+    color: white;
+    border: 1px solid #D5621D;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* First screen styles */
+.first_screen {
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+}
+
+.main_screen {
+    width: 856px;
+    height: 540px;
+    background-size: cover;
+    margin-right: 24px;
+}
+
+.screen_content {
+    margin-top: 301px;
+    padding-left: 60px;
+}
+
+.tag p {
+    background-color: white;
+    padding: 10px 20px 7px 20px;
+    text-transform: uppercase;
+    display: inline-flex;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-weight: 700;
+}
+
+.title_screen p {
+    color: white;
+    font-family: 'GothamPro_Black', sans-serif;
+    width: 623px;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.timetable {
+    max-width: 416px;
+}
+
+.timetable_btn {
+    display: flex;
+}
+
+.select_btn button {
+    padding: 12px 10px 7px 10px;
+    background: rgba(213, 98, 29, 0.05);
+    width: 208px;
+    text-align: center;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'GothamPro_Bold', sans-serif;
+    cursor: pointer;
+}
+
+.select_active button {
+    background: rgba(213, 98, 29, 0.10);
+}
+
+.immediate {
+    background: rgba(213, 98, 29, 0.10);
+    padding: 39px 35px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 0 0 5px 5px;
+}
+
+.table_item {
+    margin-bottom: 26px;
+}
+
+/* Kitchen styles */
+.kitchen_block {
+    margin-top: 120px;
+}
+
+.lead {
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+    width: max-content;
+    padding: 10px 20px 7px;
+    border-radius: 5px;
+}
+
+.lead p {
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.title {
+    text-align: center;
+    font-family: 'GothamPro_Black', sans-serif;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.kitchen_content {
+    margin-top: 80px;
+}
+
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+
+.dishes {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.dish {
+    display: flex;
+    width: 486px;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.dish img{
+    width: 110px;
+    height: 110px;
+}
+
+.dish_title {
+    width: max-content;
+    color: white;
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.price {
+    color: white;
+    border: 2px solid #D5621D;
+    padding: 10px 20px 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+    float: right;
+}
+
+.weight {
+    color: #D5621D;
+    font-family: 'Stolzl-Regular', sans-serif;
+    font-size: 14px;
+    margin-top: 5.5px;
+    margin-bottom: 10px;
+}
+
+.dish_descript {
+    color: #FFF;
+    font-family: 'Stolzl-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: "";
+}
+
+.swiper-button-prev {
+    background: url("assets/img/prev_btn.svg") no-repeat center,
+    #D5621D;
+}
+
+.swiper-button-next {
+    background: url("assets/img/next_btn.svg") no-repeat center,
+    #D5621D;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn_bg {
+    width: max-content;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #D5621D;
+    margin: 96px auto 0;
+}
+
+.btn_bg a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family: 'GothamPro_Bold', sans-serif;
+}
