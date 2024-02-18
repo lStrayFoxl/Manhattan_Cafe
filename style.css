@@ -523,3 +523,72 @@ body {
     font-weight: 400;
     opacity: 0.5;
 }
+
+/* Poster styles */
+.poster_section {
+    margin-top: 55px;
+}
+
+.poster_cards {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.poster_card {
+    max-width: 306px;
+    max-height: 350px;
+}
+
+.poster_img {
+    position: absolute;
+}
+
+.poster_event {
+    width: 100%;
+    height: 350px;
+}
+
+.poster_info {
+    position: relative;
+    padding: 188px 79px 37px 35px;
+    color: #FFF;
+    visibility: hidden;
+    transition: all 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.date_and_time {
+    background-color: #D5621D;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'GothamPro_Bold', sans-serif;
+    width: max-content;
+}
+
+.poster_title {
+    font-size: 18px;
+    font-family: 'GothamPro_Bold', sans-serif;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.price_event {
+    font-family: 'GothamPro_Bold', sans-serif;
+    border: 2px solid #D5621D;
+    padding: 10px 20px 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: max-content;
+}
+
+.poster_card:hover .poster_info {
+    visibility: visible;
+    background-color: #210e09b7;
+}
