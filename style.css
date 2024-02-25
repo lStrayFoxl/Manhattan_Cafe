@@ -592,3 +592,86 @@ body {
     visibility: visible;
     background-color: #210e09b7;
 }
+
+/* Events styles */
+.event_section {
+    margin-top: 55px;
+}
+
+.events_info {
+    margin-top: 100px;
+}
+
+.events_info h3 {
+    text-align: center; 
+    color: white; 
+    font-size: 24px; 
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase; 
+    line-height: 36px; 
+    letter-spacing: 1.20px;
+}
+
+.events_info_block {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 80px;
+}
+
+.event_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 376px;
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Stolzl-Regular', sans-serif; 
+    font-weight: 400; 
+    line-height: 30px; 
+    word-wrap: break-word"
+}
+
+.event_info img {
+    align-self: center;
+}
+
+.why_us_block {
+    margin-top: 100px;
+}
+
+.why_us_block h3 {
+    text-align: center; 
+    color: white; 
+    font-size: 24px; 
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase; 
+    line-height: 36px; 
+    letter-spacing: 1.20px;
+}
+
+.why_list {
+    margin: 60px auto 0;
+    max-width: 606px;
+    list-style-type: square;
+}
+
+.why_item { 
+    left: 30px; 
+    top: 0px; 
+    color: #D5621D; 
+    font-size: 18px; 
+    font-family: 'Stolzl-Book', sans-serif; 
+    font-weight: 400; 
+    line-height: 27px; 
+    margin-bottom: 20px;
+}
+
+.why_item span {
+    color: white; 
+}
+
