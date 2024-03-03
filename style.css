@@ -675,3 +675,36 @@ body {
     color: white; 
 }
 
+/* Gallery styles */
+.gallery_section {
+    margin-top: 55px;
+}
+.gallery_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.gallery_item {
+    max-width: 306px;
+    max-height: 350px;
+    width: 100%;
+}
+
+.gallery_item_hover {
+    background-color: #210e09b7;
+    width: 306px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.gallery_item:hover .gallery_item_hover {
+    visibility: visible;
+}

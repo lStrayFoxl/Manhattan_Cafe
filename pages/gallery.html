@@ -10,6 +10,12 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
+    <!-- Lightgallery CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css"
+    />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="../style.css" />
   </head>
@@ -58,46 +64,86 @@
 
     <main class="main_block">
       <div class="container">
-        <div class="event_section">
+        <div class="gallery_section">
           <div class="lead">
-            <p>Top “Manhattan” events</p>
+            <p>Top “Manhattan” photo</p>
           </div>
 
-          <h2 class="title">корпоративы</h2>
+          <h2 class="title">галерея</h2>
 
-          <div class="events_info">
-            <h3>корпоративы</h3>
-            <div class="events_info_block">
-              <div class="event_info">
-                <img src="/assets/img/Buffet.svg" alt="" />
-                <p>Фуршетное меню от 1000 руб.<br> на человека (до 150 человек).</p>
+          <div class="gallery_items" id="lightgallery">
+            <a href="../assets/img/gallery/photo1.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
               </div>
-
-              <div class="event_info">
-                <img src="/assets/img/Banquet.svg" alt="" />
-                <p>Банкетное меню от 1500 руб.<br> на человека (до 100 человек).</p>
+              <img src="/assets/img/gallery/photo1.png" alt="photo1" />
+            </a>
+            <a href="../assets/img/gallery/photo2.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
               </div>
-            </div>
-          </div>
-          <div class="why_us_block">
-            <h3>ПОЧЕМУ МЫ?</h3>
-            <ul class="why_list">
-                <li class="why_item">
-                    <span>Отдельный зал на 30 человек с профессиональной системой караоке</span>
-                </li>
-                <li class="why_item">
-                    <span>Удобная парковка и близость к трем станциям метро в центре города</span>
-                </li>
-                <li class="why_item">
-                    <span>Большие экраны</span>
-                </li>
-                <li class="why_item">
-                    <span>Танцпол с современной звуковой и световой аппаратурой</span>
-                </li>
-                <li class="why_item">
-                    <span>Сцена с проекционным экраном.</span>
-                </li>
-            </ul>
+              <img src="/assets/img/gallery/photo2.png" alt="photo2" />
+            </a>
+            <a href="../assets/img/gallery/photo3.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo3.png" alt="photo3" />
+            </a>
+            <a href="../assets/img/gallery/photo4.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo4.png" alt="photo4" />
+            </a>
+            <a href="../assets/img/gallery/photo5.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo5.png" alt="photo5" />
+            </a>
+            <a href="../assets/img/gallery/photo6.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo6.png" alt="photo6" />
+            </a>
+            <a href="../assets/img/gallery/photo7.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo7.png" alt="photo7" />
+            </a>
+            <a href="../assets/img/gallery/photo8.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo8.png" alt="photo8" />
+            </a>
+            <a href="../assets/img/gallery/photo9.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo9.png" alt="photo9" />
+            </a>
+            <a href="../assets/img/gallery/photo10.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo10.png" alt="photo10" />
+            </a>
+            <a href="../assets/img/gallery/photo11.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo11.png" alt="photo11" />
+            </a>
+            <a href="../assets/img/gallery/photo12.png" class="gallery_item">
+              <div class="gallery_item_hover">
+                <img src="/assets/img/more.svg" alt="more" />
+              </div>
+              <img src="/assets/img/gallery/photo12.png" alt="photo12" />
+            </a>
           </div>
         </div>
       </div>
@@ -177,16 +223,12 @@
       </div>
     </footer>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Lightgallery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
 
-    <!-- My Js -->
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/accordion.js"></script>
-
-    <script>
-      new ItcAccordion("#accordion-1", {
-        alwaysOpen: false,
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        speed: 500,
       });
     </script>
   </body>
