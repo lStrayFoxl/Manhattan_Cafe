@@ -183,13 +183,6 @@ body {
     margin-top: 80px;
 }
 
-.swiper {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-
 .dishes {
     display: flex;
     flex-direction: column;
