@@ -701,3 +701,30 @@ body {
 .gallery_item:hover .gallery_item_hover {
     visibility: visible;
 }
+
+/* News styles */
+.news_section {
+    margin-top: 55px;
+}
+
+.news_items {
+    margin-top: 100px;
+    padding: 0 150px;
+}
+
+.news_item {
+    border: 2px solid #D5621D;
+    border-radius: 5px;
+    background-color: rgba(213, 98, 29, 0.10);
+    color: #FFF;
+    padding: 15px 35px;
+    margin-bottom: 24px;
+}
+
+.news_title {
+    margin-bottom: 15px;
+}
+
+.news_text {
+    text-align: justify;
+}
