@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manhattan</title>
 
-    <!-- Lightgallery CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css"
-    />
-
     <!-- My CSS -->
     <link rel="stylesheet" href="../style.css" />
   </head>
@@ -59,87 +53,44 @@
 
     <main class="main_block">
       <div class="container">
-        <div class="gallery_section">
+        <div class="reservation_section">
           <div class="lead">
-            <p>Top “Manhattan” photo</p>
+            <p>Top “Manhattan” reservation</p>
           </div>
 
-          <h2 class="title">галерея</h2>
-          
-          <!-- TODO: Проверить что будет если фото более большего разрешения -->
-          <div class="gallery_items" id="lightgallery">
-            <a href="../assets/img/gallery/photo1.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
+          <h2 class="title">бронирование</h2>
+
+          <div class="reservation_items">
+            <div class="info_form">
+                <img src="/assets/img/information.svg" alt="information">
+                <p class="text_info">
+                    Вы можете позвонить нам по номеру +7 (812) 713-1945 и забронировать столик или можете
+                    заполнить форму ниже и мы вам перезвоним позже для уточнения брони.
+                </p>
+            </div>
+
+            <form action="#" method="post">
+              <div class="reservation_item">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" />
               </div>
-              <img src="/assets/img/gallery/photo1.png" alt="photo1" />
-            </a>
-            <a href="../assets/img/gallery/photo2.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
+              <div class="reservation_item">
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" name="surname" />
               </div>
-              <img src="/assets/img/gallery/photo2.png" alt="photo2" />
-            </a>
-            <a href="../assets/img/gallery/photo3.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
+              <div class="reservation_item">
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="phone" />
               </div>
-              <img src="/assets/img/gallery/photo3.png" alt="photo3" />
-            </a>
-            <a href="../assets/img/gallery/photo4.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
+              <div class="reservation_item">
+                <label for="time">Время бронирования</label>
+                <input type="time" id="time" name="time" />
               </div>
-              <img src="/assets/img/gallery/photo4.png" alt="photo4" />
-            </a>
-            <a href="../assets/img/gallery/photo5.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
+              
+              <div class="btn_block">
+                <input type="submit" name="submit" value="Забронировать" class="form_btn" />
               </div>
-              <img src="/assets/img/gallery/photo5.png" alt="photo5" />
-            </a>
-            <a href="../assets/img/gallery/photo6.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo6.png" alt="photo6" />
-            </a>
-            <a href="../assets/img/gallery/photo7.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo7.png" alt="photo7" />
-            </a>
-            <a href="../assets/img/gallery/photo8.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo8.png" alt="photo8" />
-            </a>
-            <a href="../assets/img/gallery/photo9.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo9.png" alt="photo9" />
-            </a>
-            <a href="../assets/img/gallery/photo10.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo10.png" alt="photo10" />
-            </a>
-            <a href="../assets/img/gallery/photo11.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo11.png" alt="photo11" />
-            </a>
-            <a href="../assets/img/gallery/photo12.png" class="gallery_item">
-              <div class="gallery_item_hover">
-                <img src="/assets/img/more.svg" alt="more" />
-              </div>
-              <img src="/assets/img/gallery/photo12.png" alt="photo12" />
-            </a>
+            </form>
           </div>
         </div>
       </div>
@@ -218,14 +169,5 @@
         </div>
       </div>
     </footer>
-
-    <!-- Lightgallery JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
-
-    <script type="text/javascript">
-      lightGallery(document.getElementById("lightgallery"), {
-        speed: 500,
-      });
-    </script>
   </body>
 </html>

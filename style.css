@@ -728,3 +728,84 @@ body {
 .news_text {
     text-align: justify;
 }
+
+/* Reservation styles */
+.reservation_section {
+    margin-top: 55px;
+}
+
+.reservation_items {
+    margin-top: 100px;
+    padding: 0 150px;
+}
+
+.info_form {
+    margin-bottom: 24px;
+    background-color: rgba(213, 98, 29, 0.10);
+    border: 2px solid #D5621D;
+    border-radius: 5px;
+    padding: 15px 35px;
+}
+
+.info_form img {
+    float: left;
+    margin-right: 24px;
+}
+
+.text_info {
+    color: #FFF;
+    text-align: justify;
+}
+
+.reservation_item {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.reservation_item label {
+    display: block;
+    color: #FFF;
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+}
+
+.reservation_item input {
+    box-sizing: border-box;
+    width: 100%;
+    color: #FFF;
+    font-size: 14px;
+    background-color: rgba(213, 98, 29, 0.10);
+    padding: 10px 15px;
+    border: 2px solid #D5621D;
+    border-radius: 5px;
+}
+
+.reservation_item input:focus {
+    outline: none;
+}
+
+.reservation_item input[type="time"]::-webkit-calendar-picker-indicator {
+    width: 14px;
+    height: 14px;
+    background: url("assets/img/clock.svg") center no-repeat;
+}
+
+.btn_block {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form_btn {
+    background-color: #D5621D;
+    color: #FFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    font-family: 'GothamPro_Bold', sans-serif;
+}
