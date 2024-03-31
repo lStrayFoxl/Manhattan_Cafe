@@ -809,3 +809,27 @@ body {
     text-transform: uppercase;
     font-family: 'GothamPro_Bold', sans-serif;
 }
+
+/* Menu styles */
+.menu_section {
+    margin-top: 55px;
+}
+
+.menu_items > h3 {
+    margin-top: 100px;
+    text-align: center; 
+    color: white; 
+    font-size: 24px; 
+    font-family: 'GothamPro_Bold', sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase; 
+    line-height: 36px; 
+    letter-spacing: 1.20px;
+    
+}
+
+.menu_items .dishes {
+    margin-top: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
