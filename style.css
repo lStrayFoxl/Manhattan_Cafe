@@ -833,3 +833,17 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/* Tourists styles */
+.tourists_info_block {
+    padding: 0 150px;
+}
+
+.tourists_info_block p {
+    text-align: justify; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Stolzl-Regular', sans-serif; 
+    font-weight: 400; 
+    line-height: 30px; 
+}
