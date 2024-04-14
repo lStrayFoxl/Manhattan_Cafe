@@ -61,6 +61,10 @@ body {
     font-size: 14px;
 }
 
+.menu_item a:hover {
+    text-decoration: underline;
+}
+
 .btn {
     color: white;
     border: 1px solid #D5621D;
@@ -68,6 +72,11 @@ body {
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 14px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #D5621D;
 }
 
 /* First screen styles */
@@ -439,6 +448,15 @@ body {
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+
+.contacts_engineer a img {
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.contacts_engineer a:hover img {
+    background-color: #D5621D;
 }
 
 /* Footer styles */
