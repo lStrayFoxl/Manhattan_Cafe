@@ -37,11 +37,11 @@ class ItcAccordion {
       el.classList.add('accordion__item_slidedown');
       elBody.offsetHeight;
       elBody.style.height = `${height}px`;
+      elBody.classList.remove('collapsing');
+      el.classList.remove('accordion__item_slidedown');
+      elBody.classList.add('collapse');
+      el.classList.add('accordion__item_show');
       window.setTimeout(() => {
-        elBody.classList.remove('collapsing');
-        el.classList.remove('accordion__item_slidedown');
-        elBody.classList.add('collapse');
-        el.classList.add('accordion__item_show');
         elBody.style.display = '';
         elBody.style.height = '';
         elBody.style.transition = '';
@@ -59,10 +59,10 @@ class ItcAccordion {
       elBody.style.height = 0;
       elBody.style.overflow = 'hidden';
       elBody.style.transition = `height ${this._config.duration}ms ease`;
-      elBody.classList.remove('collapse');
-      el.classList.remove('accordion__item_show');
-      elBody.classList.add('collapsing');
       window.setTimeout(() => {
+        elBody.classList.remove('collapse');
+        el.classList.remove('accordion__item_show');
+        elBody.classList.add('collapsing');
         elBody.classList.remove('collapsing');
         elBody.classList.add('collapse');
         elBody.style.display = '';
