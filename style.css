@@ -720,6 +720,12 @@ body {
     visibility: visible;
 }
 
+.gallery_item > img {
+    max-width: 306px;
+    max-height: 350px;
+    width: 100%;
+}
+
 /* News styles */
 .news_section {
     margin-top: 55px;
