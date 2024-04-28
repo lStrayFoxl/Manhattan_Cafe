@@ -144,7 +144,7 @@ body {
     background: rgba(213, 98, 29, 0.10);
 }
 
-.immediate {
+.immediate, .soon {
     background: rgba(213, 98, 29, 0.10);
     padding: 39px 35px 5px;
     display: flex;
@@ -155,6 +155,10 @@ body {
 
 .table_item {
     margin-bottom: 26px;
+}
+
+.d-none {
+    display: none;
 }
 
 /* Kitchen styles */
