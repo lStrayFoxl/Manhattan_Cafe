@@ -880,3 +880,18 @@ body {
     font-weight: 400; 
     line-height: 30px; 
 }
+
+/* Adaptation of styles from 1440px screen */
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1110px;
+    }
+
+    .main_screen {
+        width: 100%;
+    }
+
+    .dish {
+        width: 374px;
+    }
+}
