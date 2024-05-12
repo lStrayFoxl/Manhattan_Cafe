@@ -11,4 +11,13 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
 
+    breakpoints: {
+      1111: {
+        slidesPerView: 2,
+      },
+      320: {
+        slidesPerView: 1,
+      },
+    },
+
 });
