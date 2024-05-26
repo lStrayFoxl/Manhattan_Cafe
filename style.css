@@ -1037,3 +1037,34 @@ body {
         padding: 0;
     }
 }
+
+/* Adaptation of styles from 682px screen */
+@media screen and (max-width: 682px) {
+    .container {
+        max-width: 510px;
+    }
+
+    .title_screen p {
+        width: min-content;
+    }
+
+    .dish {
+        width: 390px;
+    }
+
+    .footer_info {
+        flex-direction: column;
+    }
+
+    .info_block_footer {
+        max-width: 100%;
+    }
+
+    .poster_cards {
+        justify-content: center;
+    }
+
+    .gallery_items {
+        justify-content: center;
+    }
+}
