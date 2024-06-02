@@ -1068,3 +1068,52 @@ body {
         justify-content: center;
     }
 }
+
+/* Adaptation of styles from 520px screen */
+@media screen and (max-width: 520px) {
+    .container {
+        max-width: 290px;
+    }
+
+    .screen_content {
+        padding-left: 0;
+    }
+
+    .title_screen p {
+        font-size: 32px;
+    }
+
+    .dish {
+        width: 290px;
+    }
+
+    .dish img {
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+
+    .accordion__item {
+        width: 290px;
+    }
+
+    .title_block {
+        font-size: 24px;
+    }
+
+    .cards_engineers {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .lead p {
+        font-size: 12px;
+    }
+}
